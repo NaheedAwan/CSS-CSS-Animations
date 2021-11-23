@@ -19,15 +19,15 @@
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
-  /* transition:filter 5s, width 3s; */
-  /* transition: 1.5s; */
+  transition:filter 5s, width 3s; 
+  transition: 1.5s;
 
 }
 
 .transition-demo img:hover {
   filter: none;
   transform: scale(1.25) rotate (180deg);
-  /* width:300px; */
+  width:300px;
 
 
 }
